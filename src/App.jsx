@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { QUESTIONS } from './components/quizQuestions';
+import { QUESTIONS } from './mocks/quizQuestions';
 import StartedScreen from './components/StartedScreen';
 import SummaryScreen from './components/SummaryScreen';
 import Question from './components/Question';
