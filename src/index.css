@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 16px;
+  --mainColor: #111928;
+  --primaryColor: #1a56db;
+  --green: #428542;
+  --red: #d92020;
+  --white: #fff;
+  --blue: #92f4ff;
+  --radius: 0.35rem;
+}
+body {
+  font-family: 'Montserrat', serif;
+  background-color: var(--mainColor);
+  color: var(--white);
+  line-height: 1.5rem;
+  font-weight: 500;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.container,
+.app-quiz {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+h1 {
+  font-size: 2.75rem;
+  font-weight: 700;
+  line-height: 3rem;
+  text-align: center;
+  color: var(--white);
+}
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 2rem;
+  text-align: center;
+  color: var(--white);
+  margin: 1rem 0;
+}
+h3 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--blue);
+  margin-bottom: 0.5rem;
+}
+button {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 600;
+  text-transform: uppercase;
+  width: 26rem;
+  padding: 0.75rem 1rem;
+  margin: 2rem 0;
+  border: none;
+  border-radius: var(--radius);
+  cursor: pointer;
+  opacity: 1;
+
+  transition: opacity 0.3s ease-in-out;
+}
+button:hover {
+  opacity: 0.85;
+}
+.light {
+  background-color: var(--white);
+  color: var(--mainColor);
+  margin: 0.75rem 0;
+  text-transform: none;
+}
+.primary {
+  background-color: var(--primaryColor);
+  color: var(--white);
+}
+.secondary {
+  background-color: var(--green);
+  color: var(--white);
+}
+.text-green {
+  color: var(--green);
+}
+.text-red {
+  color: var(--red);
+}
+ul {
+  list-style-type: none;
+}
+li {
+  margin: 1rem 0;
+}
